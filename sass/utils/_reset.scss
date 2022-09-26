@@ -14,3 +14,20 @@ img {
     display: block;
     max-width: 100%;
   }
+
+  .list {
+    list-style: none;
+    font-weight: 500;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: currentColor;
+    font-style: normal;
+    transition: color var(--transition);
+  }
+
+.link:hover,
+.link:focus {
+  color: var(--second-text-cl);
+}
