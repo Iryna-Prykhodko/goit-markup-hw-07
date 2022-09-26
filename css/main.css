@@ -13,4 +13,16 @@
   --third-bg-cl: #2196f3;
   /*transition*/
   --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=main.css.map */
