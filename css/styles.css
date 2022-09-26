@@ -38,20 +38,20 @@ ul {
   padding: 0;
 }*/
 
-.container {
+/*.container {
   width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   justify-content: space-evenly;
-}
+}*/
 
-img {
+/*img {
   display: block;
   max-width: 100%;
-}
+}*/
 
-.visually-hidden {
+/*.visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -62,7 +62,7 @@ img {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+}*/
 /* navigation */
 
 .header__container {

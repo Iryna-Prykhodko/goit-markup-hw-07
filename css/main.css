@@ -25,4 +25,39 @@ p,
 ul {
   margin: 0;
   padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
+.page {
+  font-family: var(--main-font);
+  color: var(--main-text-cl);
+  background-color: var(--accent-bg-cl);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }/*# sourceMappingURL=main.css.map */

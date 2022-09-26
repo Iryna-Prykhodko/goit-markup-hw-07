@@ -2,7 +2,9 @@
 
 @import"./utils/variables";
 @import"./utils/reset";
-
+@import"./utils/visually-hidden";
 
 //components styles
 
+@import"./components/page";
+@import"./components/container";
