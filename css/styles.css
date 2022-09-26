@@ -195,7 +195,7 @@ img {
   background-size: cover;
 }
 
-.hero-title {
+.hero__title {
   color: var(--fourth-text-cl);
   font-family: var(--main-font);
   font-style: normal;
@@ -208,7 +208,7 @@ img {
   margin-bottom: 30px;
 }
 
-.btn-hero {
+.btn__hero {
   display: block;
   margin: 0 auto;
   font-size: 16px;
@@ -226,8 +226,8 @@ img {
   transition: background-color var(--transition);
 }
 
-.btn-hero:hover,
-.btn-hero:focus {
+.btn__hero:hover,
+.btn__hero:focus {
   background: #188ce8;
 }
 
