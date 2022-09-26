@@ -433,6 +433,7 @@ transition: background-color var(--transition);
 
 /* Особливості */
 /*прихований заголовок*/
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -451,7 +452,7 @@ transition: background-color var(--transition);
   gap: 30px;
 }
 
-.box-icon {
+.features__box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -462,7 +463,7 @@ transition: background-color var(--transition);
   margin-bottom: 30px;
 }
 
-.features-list-item {
+.features__item {
   flex-basis: calc((100%-90px) / 4);
 }
 
@@ -475,11 +476,7 @@ transition: background-color var(--transition);
   letter-spacing: 0.03em;
 }
 
-.list-services {
-  display: flex;
-  gap: 30px;
-  margin-top: 50px;
-}
+
 
 .subtitle {
   font-family: var(--main-font);
@@ -488,13 +485,25 @@ transition: background-color var(--transition);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.subtitle-text {
+.features__subtitle--text {
   color: var(--third-text-cl);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   margin-top: 10px;
   font-weight: 400;
+}
+
+/*services*/
+
+.section-services {
+  padding-top: 0;
+}
+
+.list-services {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
 }
 
 .thumb {
@@ -815,9 +824,7 @@ transition: background-color var(--transition);
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.section-services {
-  padding-top: 0;
-}
+
 
 /* Portfolio*/
 
