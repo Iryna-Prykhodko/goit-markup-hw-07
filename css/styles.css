@@ -42,6 +42,7 @@ ul {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  justify-content: space-evenly;
 }
 
 img {
@@ -63,17 +64,17 @@ img {
 }
 /* navigation */
 
-.header-container {
+.header__container {
   border-bottom: 1px solid #ececec;
   display: flex;
 }
 
-.main-nav {
+.nav {
   display: flex;
   align-items: center;
 }
 
-.logo-link {
+.logo {
   align-items: center;
   margin-right: 93px;
   text-decoration-line: none;
@@ -86,37 +87,37 @@ img {
   color: #2196f3;
 }
 
-.logo-header {
+.logo__header {
   color: #000000;
 }
 
-.nav-list {
+.nav__list {
   display: flex;
   gap: 50px;
   align-items: center;
 }
-.link-header {
+.nav__link {
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
   display: inline-block;
 }
 
-.nav-list-contact {
+.header__list {
   display: inline-flex;
   gap: 50px;
   align-items: center;
   margin-left: auto;
 }
 
-.link-header:hover::after {
+.nav__link:hover::after {
   opacity: 1;
 }
-.link-header.current {
+.nav__link.current {
   color: var(--second-text-cl);
 }
 
-.link-header.current::after {
+.nav__link.current::after {
   content: "";
   display: inline-block;
   position: absolute;
@@ -138,7 +139,7 @@ img {
   font-style: normal;
   transition: color var(--transition);
 }
-.link-contact {
+.header__link  {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -146,15 +147,15 @@ img {
   transition: color var(--transition);
 }
 
-.icon-contact {
+.header__icon {
   transition: fill var(--transition);
 }
 
-.link-contact:hover .icon-contact {
+.header__link:hover .header__icon {
   fill: var(--second-text-cl);
 }
 
-.link-contact:focus .icon-contact {
+.header__link:focus .header__icon {
   fill: var(--second-text-cl);
 }
 
@@ -163,10 +164,11 @@ img {
   color: var(--second-text-cl);
 }
 
-.list-item-contact {
+.header__item {
   color: var(--third-text-cl);
   font-size: 14px;
   letter-spacing: 0.02em;
+  margin-top: 9px;
 }
 
 .current {
@@ -448,9 +450,7 @@ transition: background-color var(--transition);
   display: flex;
   gap: 30px;
 }
-.container {
-  justify-content: space-evenly;
-}
+
 .box-icon {
   display: flex;
   align-items: center;
@@ -663,6 +663,9 @@ address {
 }
 
 .list-item-contact {
+  color: var(--third-text-cl);
+  font-size: 14px;
+  letter-spacing: 0.02em;
   margin-top: 9px;
 }
 
