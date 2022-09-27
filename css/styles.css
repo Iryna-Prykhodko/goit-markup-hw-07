@@ -453,6 +453,7 @@ transition: background-color var(--transition);
 .features {
   display: flex;
   gap: 30px;
+    padding-top: 94px;
 }
 
 .features__box {
@@ -608,6 +609,11 @@ transition: background-color var(--transition);
 }
 
 /*CLIENTS*/
+
+.clients{
+  padding-top: 94px;
+}
+
 .list-clients {
   display: flex;
   gap: 30px;
@@ -824,8 +830,12 @@ transition: background-color var(--transition);
 }
 
 .section {
-  padding-top: 94px;
+  
   padding-bottom: 94px;
+}
+
+.team .title {
+  padding-top: 94px;
 }
 
 

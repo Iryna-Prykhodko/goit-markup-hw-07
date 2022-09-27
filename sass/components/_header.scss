@@ -28,6 +28,7 @@
   }
 
   .header__link  {
+    color: var(--third-text-cl);
     display: flex;
     align-items: center;
     gap: 10px;
@@ -48,7 +49,7 @@
   }
   
   .header__item {
-    color: var(--third-text-cl);
+   
     font-size: 14px;
     letter-spacing: 0.02em;
     margin-top: 9px;
