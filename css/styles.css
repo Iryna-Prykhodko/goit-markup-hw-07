@@ -289,7 +289,7 @@ ul {
   visibility: hidden;
 }*/
 
-.register-form-title{
+/*.register-form-title{
   display: block;
   text-align: center;
   font-size: 20px;
@@ -432,7 +432,7 @@ transition: background-color var(--transition);
 .register-form-btn:hover,
 .register-form-btn:focus {
   background-color: #188ce8;
-}
+}*/
 
 /* Особливості */
 /*прихований заголовок*/
@@ -479,7 +479,6 @@ transition: background-color var(--transition);
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-
 
 
 .subtitle {
