@@ -840,6 +840,10 @@ transition: background-color var(--transition);
 
 /* Portfolio*/
 
+.section-portfolio{
+padding-top: 94px;
+}
+
 .card-set {
   display: flex;
   flex-wrap: wrap;

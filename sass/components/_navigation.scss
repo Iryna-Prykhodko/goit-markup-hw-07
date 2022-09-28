@@ -9,12 +9,18 @@
     align-items: center;
   }
 
+  
+ 
+
+
   .nav__link {
     position: relative;
     padding-top: 32px;
     padding-bottom: 32px;
     display: inline-block;
+   color: var(--main-text-cl);
   }
+  
   .nav__link:hover::after {
     opacity: 1;
   }
