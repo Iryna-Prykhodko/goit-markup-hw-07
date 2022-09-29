@@ -7,17 +7,12 @@
   
   .register-form-group{
     margin-bottom: 20px;
-  
   }
   
   .register-form-field{
     display: block;
     margin-bottom: 10px;
   position: relative;
-  }
-  
-  label{
-    display: block;
   }
   
   .register-form-label{
@@ -38,13 +33,11 @@
   padding-left: 42px;
   padding-right: 42px;
   outline: transparent;
-  transition: border-color var(--transition)
-  }
-  
-  .register-form-input:focus,
-  .register-form-input:hover{
+  transition: border-color var(--transition);
+  &:focus,
+  &:hover{
     border-color:var(--third-bg-cl);
-  
+  }
   }
   
   .register-form-icon{
@@ -71,12 +64,10 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: border-color var(--transition);
-  }
-  
-  
-  .register-form-message:focus,
-  .register-form-message:hover{
+  &:focus,
+  &:hover{
     border-color:var(--third-bg-cl);
+  }
   }
   
   .register-form-agreement{
@@ -116,9 +107,7 @@
   
   .register-form-link{
   color: var(--second-text-cl);
-  
   }
-  
   
   .register-form-btn{
     display: block;
@@ -136,9 +125,10 @@
   cursor: pointer;
   border: none;
   transition: background-color var(--transition);
-  }
-  
-  .register-form-btn:hover,
-  .register-form-btn:focus {
+  &:hover,
+  &:focus {
     background-color: #188ce8;
   }
+  }
+  
+  

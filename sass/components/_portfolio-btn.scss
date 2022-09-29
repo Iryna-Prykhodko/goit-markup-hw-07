@@ -27,14 +27,15 @@
       background-color var(--transition),
         box-shadow var(--transition),
         border-radius var(--transition);
-  }
-  
-  .portfolio-btn:hover,
-  .portfolio-btn:focus {
+        &:hover,
+        &:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     color: var(--fourth-text-cl);
     background-color: var(--third-bg-cl);
   }
+  }
+  
+  
   

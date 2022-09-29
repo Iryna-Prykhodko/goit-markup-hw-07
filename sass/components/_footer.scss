@@ -25,7 +25,13 @@ address {
     text-decoration: none;
     text-decoration-line: none;
     transition: color var(--transition);
+
+    &:hover,
+    &:focus {
+    color: var(--second-text-cl);
   }
+  }
+
   .list-address {
     display: flex;
     flex-direction: column;
@@ -39,10 +45,7 @@ address {
     margin-top: 9px;
   }
   
-  .address:hover,
-  .address:focus {
-    color: var(--second-text-cl);
-  }
+  
   .footer.address:hover {
     color: var(--second-text-cl);
   }
@@ -76,12 +79,12 @@ address {
     color: var(--accent-bg-cl);
     border-radius: 50%;
     transition: background-color var(--transition);
-  }
-  
-  .socials-link-footer:hover,
-  .socials-link-footer:focus {
+
+    &:hover,
+    &:focus {
     background-color: var(--third-bg-cl);
     color: var(--accent-bg-cl);
+  }
   }
   
   .footer-subscription{
@@ -127,11 +130,11 @@ address {
   border:none;
   cursor: pointer;
   transition: background-color var(--transition);
-  }
-  
-  .footer-subscription-btn:hover,
-  .footer-subscription-btn:focus {
+
+  &:hover,
+  &:focus {
     background-color: #188ce8;
+  }
   }
   
   .sign-up{

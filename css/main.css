@@ -105,7 +105,6 @@ img {
   letter-spacing: 0.03em;
   color: #2196f3;
 }
-
 .logo__header {
   color: #000000;
 }
@@ -119,6 +118,11 @@ img {
       -ms-flex-align: center;
           align-items: center;
   margin-left: auto;
+}
+.header__list__item {
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  margin-top: 9px;
 }
 
 .header__link {
@@ -148,12 +152,6 @@ img {
   fill: var(--second-text-cl);
 }
 
-.header__item {
-  font-size: 14px;
-  letter-spacing: 0.02em;
-  margin-top: 9px;
-}
-
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -180,7 +178,6 @@ img {
   display: inline-block;
   color: var(--main-text-cl);
 }
-
 .nav__link:hover::after {
   opacity: 1;
 }
@@ -188,7 +185,6 @@ img {
 .nav__link.current {
   color: var(--second-text-cl);
 }
-
 .nav__link.current::after {
   content: "";
   display: inline-block;
@@ -218,7 +214,6 @@ img {
   background-position: center;
   background-size: cover;
 }
-
 .hero__title {
   color: var(--fourth-text-cl);
   font-family: var(--main-font);
@@ -252,9 +247,7 @@ img {
   -webkit-transition: background-color var(--transition);
   transition: background-color var(--transition);
 }
-
-.btn__hero:hover,
-.btn__hero:focus {
+.btn__hero:hover, .btn__hero:focus {
   background: #188ce8;
 }
 
@@ -311,9 +304,7 @@ img {
   -webkit-transition: fill var(--transition);
   transition: fill var(--transition);
 }
-
-.modal-btn:hover,
-.modal-btn:focus {
+.modal-btn:hover, .modal-btn:focus {
   fill: var(--third-bg-cl);
 }
 
@@ -340,10 +331,6 @@ img {
   position: relative;
 }
 
-label {
-  display: block;
-}
-
 .register-form-label {
   display: block;
   font-weight: 400;
@@ -365,9 +352,7 @@ label {
   -webkit-transition: border-color var(--transition);
   transition: border-color var(--transition);
 }
-
-.register-form-input:focus,
-.register-form-input:hover {
+.register-form-input:focus, .register-form-input:hover {
   border-color: var(--third-bg-cl);
 }
 
@@ -399,9 +384,7 @@ label {
   -webkit-transition: border-color var(--transition);
   transition: border-color var(--transition);
 }
-
-.register-form-message:focus,
-.register-form-message:hover {
+.register-form-message:focus, .register-form-message:hover {
   border-color: var(--third-bg-cl);
 }
 
@@ -475,9 +458,7 @@ label {
   -webkit-transition: background-color var(--transition);
   transition: background-color var(--transition);
 }
-
-.register-form-btn:hover,
-.register-form-btn:focus {
+.register-form-btn:hover, .register-form-btn:focus {
   background-color: #188ce8;
 }
 
@@ -488,7 +469,10 @@ label {
   gap: 30px;
   padding-top: 94px;
 }
-
+.features__item {
+  -ms-flex-preferred-size: calc((100% - 90px) / 4);
+      flex-basis: calc((100% - 90px) / 4);
+}
 .features__box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -505,12 +489,6 @@ label {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-
-.features__item {
-  -ms-flex-preferred-size: calc((100% - 90px) / 4);
-      flex-basis: calc((100% - 90px) / 4);
-}
-
 .features__subtitle--text {
   color: var(--third-text-cl);
   font-size: 14px;
@@ -540,8 +518,7 @@ label {
 .section-services {
   padding-top: 0;
 }
-
-.list-services {
+.section-services .list-services {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -554,8 +531,7 @@ label {
   width: 370px;
   height: 294px;
 }
-
-.label {
+.thumb .label {
   width: 100%;
   height: 70px;
   font-family: "Roboto";
@@ -666,9 +642,7 @@ label {
   -webkit-transition: fill var(--transition), background-color var(--transition);
   transition: fill var(--transition), background-color var(--transition);
 }
-
-.socials-link:hover,
-.socials-link:focus {
+.socials-link:hover, .socials-link:focus {
   color: var(--fourth-text-cl);
   background-color: var(--third-bg-cl);
 }
@@ -716,15 +690,13 @@ label {
   -webkit-transition: border var(--transition), fill var(--transition);
   transition: border var(--transition), fill var(--transition);
 }
+.clients-link:hover, .clients-link:focus {
+  fill: var(--third-bg-cl);
+  border-color: var(--third-bg-cl);
+}
 
 .clients-icon {
   fill: #afb1b8;
-}
-
-.clients-link:hover,
-.clients-link:focus {
-  fill: var(--third-bg-cl);
-  border-color: var(--third-bg-cl);
 }
 
 address {
@@ -760,6 +732,9 @@ address {
   -webkit-transition: color var(--transition);
   transition: color var(--transition);
 }
+.address:hover, .address:focus {
+  color: var(--second-text-cl);
+}
 
 .list-address {
   display: -webkit-box;
@@ -779,11 +754,6 @@ address {
   font-size: 14px;
   letter-spacing: 0.02em;
   margin-top: 9px;
-}
-
-.address:hover,
-.address:focus {
-  color: var(--second-text-cl);
 }
 
 .footer.address:hover {
@@ -837,9 +807,7 @@ address {
   -webkit-transition: background-color var(--transition);
   transition: background-color var(--transition);
 }
-
-.socials-link-footer:hover,
-.socials-link-footer:focus {
+.socials-link-footer:hover, .socials-link-footer:focus {
   background-color: var(--third-bg-cl);
   color: var(--accent-bg-cl);
 }
@@ -901,9 +869,7 @@ address {
   -webkit-transition: background-color var(--transition);
   transition: background-color var(--transition);
 }
-
-.footer-subscription-btn:hover,
-.footer-subscription-btn:focus {
+.footer-subscription-btn:hover, .footer-subscription-btn:focus {
   background-color: #188ce8;
 }
 
@@ -948,9 +914,7 @@ address {
   transition: color var(--transition), background-color var(--transition), box-shadow var(--transition), border-radius var(--transition);
   transition: color var(--transition), background-color var(--transition), box-shadow var(--transition), border-radius var(--transition), -webkit-box-shadow var(--transition);
 }
-
-.portfolio-btn:hover,
-.portfolio-btn:focus {
+.portfolio-btn:hover, .portfolio-btn:focus {
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -1045,9 +1009,7 @@ address {
   transition: box-shadow var(--transition), color var(--transition);
   transition: box-shadow var(--transition), color var(--transition), -webkit-box-shadow var(--transition);
 }
-
-.list-link:hover,
-.list-link:focus {
+.list-link:hover, .list-link:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   color: inherit;

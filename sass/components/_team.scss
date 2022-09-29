@@ -57,13 +57,11 @@
     background-color: var(--accent-bg-cl);
     border-radius: 50%;
     transition: fill var(--transition),background-color var(--transition);
-  
-  }
-  
-  .socials-link:hover,
-  .socials-link:focus {
-    color: var(--fourth-text-cl);
-    background-color: var(--third-bg-cl);
+    &:hover,
+    &:focus {
+      color: var(--fourth-text-cl);
+      background-color: var(--third-bg-cl);
+    }
   }
   
   .socials-icon {
