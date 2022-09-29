@@ -14,17 +14,23 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196f3;
+
+    &__header {
+      color: #000000;
+    }
   }
   
-  .logo__header {
-    color: #000000;
-  }
-
   .header__list {
     display: inline-flex;
     gap: 50px;
     align-items: center;
     margin-left: auto;
+    
+    &__item {
+      font-size: 14px;
+      letter-spacing: 0.02em;
+      margin-top: 9px;
+    }
   }
 
   .header__link  {
@@ -48,9 +54,4 @@
     fill: var(--second-text-cl);
   }
   
-  .header__item {
-   
-    font-size: 14px;
-    letter-spacing: 0.02em;
-    margin-top: 9px;
-  }
+  
