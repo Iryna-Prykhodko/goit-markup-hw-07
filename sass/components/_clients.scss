@@ -22,13 +22,15 @@
     border: 1px solid #afb1b8;
     border-radius: 4px;
     transition: border var(--transition),fill var(--transition);
+
+    &:hover,
+    &:focus {
+    fill: var(--third-bg-cl);
+    border-color: var(--third-bg-cl);
+  }
   }
   
   .clients-icon {
     fill: #afb1b8;
   }
-  .clients-link:hover,
-  .clients-link:focus {
-    fill: var(--third-bg-cl);
-    border-color: var(--third-bg-cl);
-  }
+  
