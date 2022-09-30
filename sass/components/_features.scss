@@ -1,8 +1,7 @@
 .features {
     display: flex;
     gap: 30px;
-      padding-top: 94px;
-
+    
       &__item {
         flex-basis: calc((100% - 90px) / 4);
       }
